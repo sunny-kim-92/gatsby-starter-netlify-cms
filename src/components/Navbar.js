@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "gatsby";
-import github from "../img/github-icon.svg";
-// import logo from "../img/logo.svg";
-import eidLogo from "../img/EID-LOGO-WEB.jpg"
+import houzz from "../img/houzz-logo.png";
+import pinterest from "../img/pinterest-logo.png";
+import eidLogo from "../img/EID-LOGO-WEB.jpg";
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -80,12 +80,22 @@ const Navbar = class extends React.Component {
             <div className="navbar-end has-text-centered">
               <a
                 className="navbar-item"
-                href="https://github.com/AustinGreen/gatsby-netlify-cms-boilerplate"
+                href="https://www.pinterest.com/EIDARCHITECTS/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <span className="icon">
-                  <img src={github} alt="Github" />
+                  <img src={pinterest} alt="Pinterest" />
+                </span>
+              </a>
+              <a
+                className="navbar-item"
+                href="https://www.houzz.com/pro/eidarchitects/eid-architects"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span className="icon">
+                  <img src={houzz} alt="Houzz" />
                 </span>
               </a>
             </div>

@@ -6,6 +6,8 @@ import Features from '../components/Features'
 import Testimonials from '../components/Testimonials'
 import Pricing from '../components/Pricing'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
+import './style.css'
+
 
 export const ProductPageTemplate = ({
   image,
@@ -16,10 +18,10 @@ export const ProductPageTemplate = ({
   main,
   testimonials,
   fullImage,
-  pricing,
+  pricing, 
 }) => (
-  <section className="section section--gradient">
-    <div className="container">
+  <section className="section">
+     <div className="container">
       <div className="section">
         <div className="columns">
           <div className="column is-10 is-offset-1">

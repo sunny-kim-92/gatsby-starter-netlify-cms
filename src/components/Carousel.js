@@ -24,7 +24,7 @@ class SlideShow extends React.Component {
         </div>
         <div>
           <img src={two} alt="two" />
-          <p className="legend">Another Nice House!</p>
+          <p className="legend">Incredible!</p>
         </div>
         <div>
           <img src={three} alt="three" />
